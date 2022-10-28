@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076066004963",
+    "project_id": "simple-registration-and-login",
+    "storage_bucket": "simple-registration-and-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076066004963:android:9c3237e5fd1923f3517ad6",
+        "android_client_info": {
+          "package_name": "au.edu.anu.cecs.simpleRregistrationAndLogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076066004963-voi8se59v7uiqsdopf97tf9bko1v6qtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDabIBrtfl1IBBVNhHlezqpN3DdfS9jm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076066004963-voi8se59v7uiqsdopf97tf9bko1v6qtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

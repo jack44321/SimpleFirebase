@@ -69,17 +69,17 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        mPostRef.get().addOnSuccessListener(dataSnapshot -> {
-            for (DataSnapshot ds: dataSnapshot.getChildren())
-            {
-                User user = ds.getValue(User.class);
-                my_list_user.add(0, user);
-                my_list.add(0, "Username: " + user.getUsername() + "\n\n" + "Email id: " + user.getEmail());
-            }
-            ArrayAdapter listView = new ArrayAdapter(getApplicationContext(), R.layout.simple_list_item_1, my_list);
-            list.setAdapter(listView);
-
-        });
+//        mPostRef.get().addOnSuccessListener(dataSnapshot -> {
+//            for (DataSnapshot ds: dataSnapshot.getChildren())
+//            {
+//                User user = ds.getValue(User.class);
+//                my_list_user.add(0, user);
+//                my_list.add(0, "Username: " + user.getUsername() + "\n\n" + "Email id: " + user.getEmail());
+//            }
+//            ArrayAdapter listView = new ArrayAdapter(getApplicationContext(), R.layout.simple_list_item_1, my_list);
+//            list.setAdapter(listView);
+//
+//        });
 
         Button goBack = (Button) findViewById(R.id.buttonGoBack);
         goBack.setOnClickListener(view -> {
